@@ -10,4 +10,8 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/lil-asst/',
+  build: {
+    outDir: 'docs'
+  }
 })
